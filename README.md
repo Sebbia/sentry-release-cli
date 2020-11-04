@@ -36,6 +36,20 @@ To perform publish the new release you need to provide an authorization token.
 
 This token can be acquired from `Tokens` group box in `You project->Settings->Developer Settings->New integration`.
 
+```
+sentry-release <command>
+
+Commands:
+  sentry-release publish            Publish build artefacts to Sentry
+  sentry-release remove-sourcemaps  Remove source maps from build
+
+Options:
+  --help       Show help                                               [boolean]
+  --version    Show version number                                     [boolean]
+  -t, --tag    App version tag                                          [string]
+  -b, --build  Path to build results               [string] [default: "./build"]
+```
+Example:
 ```sh
 export SENTRY_AUTH_TOKEN=xxxxxxxxxxxxxxxxxx
 npx sentry-release publish -t 1.0.0
