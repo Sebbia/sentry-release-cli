@@ -1,4 +1,4 @@
-# CLI for making releases to Sentry
+# Sentry Release CLI
 
 This CLI simplifies some actions when publishing new a release of WEB application to Sentry.
 
