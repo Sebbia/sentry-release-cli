@@ -31,7 +31,13 @@ url=https://sentry.your-domain-here.com
 ```
 
 ## Usage
+
+To perform publish the new release you need to provide an authorization token.
+
+This token can be acquired from `Tokens` group box in `You project->Settings->Developer Settings->New integration`.
+
 ```sh
-npx sentry-release-cli publish -t 1.0.0
-npx sentry-release-cli remove-sourcemaps
+export SENTRY_AUTH_TOKEN=xxxxxxxxxxxxxxxxxx
+npx sentry-release publish -t 1.0.0
+npx sentry-release remove-sourcemaps
 ```
