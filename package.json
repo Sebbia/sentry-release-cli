@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Upload app release artefacts to Sentry and clean distributive",
   "homepage": "https://github.com/Sebbia/sentry-release-cli",
+  "keywords": ["sentry", "sourcemaps", "release"],
   "repository": {
     "type": "git",
     "url": "https://github.com/Sebbia/sentry-release-cli.git"
